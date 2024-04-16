@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo del Juguete</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times" ></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="meme.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>Hablanos</h2>
+        <p>Deja un mensaje, ¡Nos encantaría saber de ti!</p>
+    </section> 
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Eliminar</td>
+                    <td>Imagen</td>
+                    <td>Producto</td>
+                    <td>Precio</td>
+                    <td>Cantidad</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/Producto/motor.png" alt=""></td>
+                    <td>Cuatrimoto de Juguete</td>
+                    <td>$DOP 3765</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$DOP 3765</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/Producto/dron.png" alt=""></td>
+                    <td>Cuatrimoto de Juguete</td>
+                    <td>$DOP 3765</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$DOP 3765</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/Producto/sky.png" alt=""></td>
+                    <td>Cuatrimoto de Juguete</td>
+                    <td>$DOP 3765</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$DOP 3765</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Aplica el Cupon</h3>
+            <div>
+                <input type="text" placeholder="Entre su Cupon">
+                <button class="normal">Aplica</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Total del Carro</h3>
+            <table>
+                <tr>
+                    <td>Subtotal del Carro</td>
+                    <td id="subtotal-carro">$DOP --</td>
+                </tr>
+                <tr>
+                    <td>Itbis</td>
+                    <td id="itbis">--</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td id="total"><strong>$DOP 0</strong></td>
+                </tr>
+            </table>
+            <button class="normal">procede a pagar</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col"> 
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contacto</h4>
+            <p><strong>Dirección:</strong> Republica Dominicana, Santiago de los Caballeros.</p>
+            <p><strong>Telefono: </strong> +1 829-206-1623</p>
+            <p><strong>Horas: </strong> 7:15 AM - 3:20 PM</p>
+            <div class="follow">
+                    <h4>Siguenos</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">información de entrega</a>
+            <a href="#">Politica y Seguridad</a>
+            <a href="#">términos y condiciones</a>
+            <a href="#">Contactanos</a>
+        </div>
+
+        <div class="col">
+            <h4>Mi Cuenta</h4>
+            <a href="#">Inicia Seccion</a>
+            <a href="#">Ver carrito</a>
+            <a href="#">Mi lista de deseos</a>
+            <a href="#">Rastrear mi Pedido</a>
+            <a href="#">Ayuda</a>
+        </div>
+
+        <div class="col install">
+            <h4>Instala la App</h4>
+            <p>Está en App Strore o Google Play</p>
+            <div class="row">
+                <img src="img/pag/app.jpg" alt="">
+                <img src="img/pag/play.jpg" alt="">
+            </div>
+            <p>Pasarelas de Pago Seguras</p>
+            <img src="img/pag/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>@ 2024, Mundo del juguete - HTML CSS Negocio de Comercio Electrónico</p>
+        </div>
+
+    </footer>
+    
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Obtener los elementos necesarios
+            const cantidadInputs = document.querySelectorAll("#cart input[type='number']");
+            const eliminarLinks = document.querySelectorAll("#cart tbody a");
+
+            // Función para actualizar el subtotal
+            function actualizarSubtotal() {
+                let subtotal = 0;
+                document.querySelectorAll("#cart tbody tr").forEach(row => {
+                    const precio = parseFloat(row.querySelector("td:nth-child(4)").textContent.replace("$DOP ", ""));
+                    const cantidad = parseInt(row.querySelector("input[type='number']").value);
+                    subtotal += precio * cantidad;
+                });
+                document.querySelector("#subtotal td:nth-child(2)").textContent = "$DOP " + subtotal;
+                document.querySelector("#subtotal td:nth-child(4)").textContent = "$DOP " + subtotal;
+            }
+
+            // Evento para actualizar el subtotal cuando se cambia la cantidad
+            cantidadInputs.forEach(input => {
+                input.addEventListener("change", actualizarSubtotal);
+            });
+
+            // Evento para eliminar un producto del carrito
+            eliminarLinks.forEach(link => {
+                link.addEventListener("click", function(event) {
+                    event.preventDefault();
+                    const row = this.parentElement.parentElement;
+                    row.remove();
+                    actualizarSubtotal();
+                });
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // Obtener los elementos necesarios
+            const cantidadInputs = document.querySelectorAll("#cart input[type='number']");
+            const eliminarLinks = document.querySelectorAll("#cart tbody a");
+
+            // Función para actualizar el subtotal
+            function actualizarSubtotal() {
+                let subtotal = 0;
+                document.querySelectorAll("#cart tbody tr").forEach(row => {
+                    const precioUnitario = parseFloat(row.querySelector("td:nth-child(4)").textContent.replace("$DOP ", ""));
+                    const cantidad = parseInt(row.querySelector("input[type='number']").value);
+                    const subtotalProducto = precioUnitario * cantidad;
+                    subtotal += subtotalProducto;
+                    row.querySelector("td:nth-child(6)").textContent = "$DOP " + subtotalProducto;
+                });
+                document.querySelector("#subtotal td:nth-child(2)").textContent = "$DOP " + subtotal;
+                document.querySelector("#subtotal td:nth-child(4)").textContent = "$DOP " + subtotal;
+            }
+
+            // Evento para actualizar el subtotal cuando se cambia la cantidad
+            cantidadInputs.forEach(input => {
+                input.addEventListener("change", function() {
+                    const cantidad = parseInt(this.value);
+                    if (cantidad < 1) {
+                        this.value = 1;
+                    }
+                    actualizarSubtotal();
+                });
+            });
+
+            // Evento para eliminar un producto del carrito
+            eliminarLinks.forEach(link => {
+                link.addEventListener("click", function(event) {
+                    event.preventDefault();
+                    const row = this.parentElement.parentElement;
+                    row.remove();
+                    actualizarSubtotal();
+                });
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+        // Obtener los elementos necesarios
+        const cantidadInputs = document.querySelectorAll("#cart input[type='number']");
+        const eliminarLinks = document.querySelectorAll("#cart tbody a");
+
+        // Función para actualizar el subtotal y el ITBIS
+        function actualizarSubtotal() {
+            let subtotal = 0;
+            let cantidadTotal = 0;
+
+            document.querySelectorAll("#cart tbody tr").forEach(row => {
+                const precioUnitario = parseFloat(row.querySelector("td:nth-child(4)").textContent.replace("$DOP ", ""));
+                const cantidad = parseInt(row.querySelector("input[type='number']").value);
+                const subtotalProducto = precioUnitario * cantidad;
+                subtotal += subtotalProducto;
+                cantidadTotal += cantidad;
+                row.querySelector("td:nth-child(6)").textContent = "$DOP " + subtotalProducto;
+            });
+
+            const itbis = subtotal * 0.18; // Calculamos el ITBIS (18%)
+
+            // Si hay más de 3 productos, el envío es gratis, de lo contrario, se cobra
+            const costoEnvio = cantidadTotal > 3 ? 0 : 200;
+
+            const total = subtotal + itbis + costoEnvio; // Calculamos el total sumando el ITBIS y el envío
+
+            document.querySelector("#subtotal-carro").textContent = "$DOP " + subtotal.toFixed(2);
+            document.querySelector("#itbis").textContent = "$DOP " + itbis.toFixed(2);
+            document.querySelector("#total").textContent = "$DOP " + total.toFixed(2);
+        }
+
+        // Evento para actualizar el subtotal cuando se cambia la cantidad
+        cantidadInputs.forEach(input => {
+            input.addEventListener("change", function() {
+                const cantidad = parseInt(this.value);
+                if (cantidad < 1) {
+                    this.value = 1;
+                }
+                actualizarSubtotal();
+            });
+        });
+
+        // Evento para eliminar un producto del carrito
+        eliminarLinks.forEach(link => {
+            link.addEventListener("click", function(event) {
+                event.preventDefault();
+                const row = this.parentElement.parentElement;
+                row.remove();
+                actualizarSubtotal();
+            });
+        });
+
+        // Llamar a la función inicialmente para calcular el subtotal al cargar la página
+        actualizarSubtotal();
+    });
+   
+
+    </script>
+
+
+    <script src="script.js"> </script>
+</body>
+</html>
